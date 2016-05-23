@@ -12,9 +12,9 @@ Add this line to your crontab.
 0 0 * * * cd /root/keep-contributing && date | cat >> test && git commit -a -m 'daily contributing' && git push origin master >> /var/log/crontab/keep-contributing.log 2>&1
 ```
 
-You can adjust the path and frenquence. Make sure you have configged the global git user.
+You can adjust the path and frequence. Make sure you have configged the global git user.
 ```
-git config --global user.name=yourName
+git config --global user.name=sample
 git config --global user.email=sample@sample.com
 ```
 
